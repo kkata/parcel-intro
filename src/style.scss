@@ -1,0 +1,42 @@
+$redColor: #d13838;
+
+.container {
+  .box {
+    background-color: $redColor;
+  }
+}
+
+main {
+  display: flex;
+  user-select: none;
+}
+
+.container {
+  display: grid;
+  gap: 10px;
+  grid-template:
+    "header header" 50px
+    "aside  main" 1fr
+    "aside  footer" 50px /
+    200px 1fr;
+
+  header {
+    grid-area: header;
+    background-color: #b64d4d;
+  }
+
+  aside {
+    grid-area: aside;
+    background-color: #16e998;
+  }
+
+  main {
+    grid-area: main;
+    background-color: #ece358;
+  }
+
+  footer {
+    grid-area: footer;
+    background-color: #e69e34;
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "name": "parcel-intro",
+  "version": "1.0.0",
+  "description": "",
+  "scripts": {
+    "serve": "parcel ./src/**/*.html",
+    "build": "parcel build ./src/**/*.html --dist-dir ./public --no-source-maps"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "autoprefixer": "^10.2.1",
+    "parcel": "^2.0.0-nightly.532",
+    "postcss": "^8.2.4",
+    "sass": "^1.32.4"
+  },
+  "browserslist": [
+    "> 0.2%",
+    "not dead"
+  ]
+}
