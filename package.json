@@ -5,14 +5,13 @@
   "scripts": {
     "serve": "parcel ./src/**/*.html",
     "build": "parcel build ./src/**/*.html --dist-dir ./public --no-source-maps",
-    "deploy": "gh-pages -d public"
+    "deploy": "npm run build && firebase deploy"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "devDependencies": {
     "autoprefixer": "^10.2.1",
-    "gh-pages": "^3.1.0",
     "parcel": "^2.0.0-nightly.532",
     "postcss": "^8.2.4",
     "sass": "^1.32.4",
