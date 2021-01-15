@@ -5,7 +5,7 @@
   "scripts": {
     "serve": "parcel ./src/**/*.html",
     "build": "parcel build ./src/**/*.html --dist-dir ./public --no-source-maps",
-    "deploy": "gh-pages -d dist"
+    "deploy": "gh-pages -d public"
   },
   "keywords": [],
   "author": "",
