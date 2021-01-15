@@ -13,7 +13,8 @@
     "autoprefixer": "^10.2.1",
     "parcel": "^2.0.0-nightly.532",
     "postcss": "^8.2.4",
-    "sass": "^1.32.4"
+    "sass": "^1.32.4",
+    "sharp": "^0.27.0"
   },
   "browserslist": [
     "> 0.2%",
