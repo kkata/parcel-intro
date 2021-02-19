@@ -44,7 +44,7 @@ fetch("/dummy.csv")
     console.log("parsing csv failed", error);
   });
 
-fetch("/test1.xml")
+fetch("/test.xml")
   .then((response) => {
     return response.text();
   })
