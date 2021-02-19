@@ -21,7 +21,12 @@
     "sharp": "^0.27.0"
   },
   "browserslist": [
-    "> 0.2%",
-    "not dead"
-  ]
+    "ie 11"
+  ],
+  "dependencies": {
+    "comma-separated-values": "^3.6.4",
+    "fast-xml-parser": "^3.18.0",
+    "promise-polyfill": "^8.2.0",
+    "whatwg-fetch": "^3.6.1"
+  }
 }

@@ -1,6 +1,6 @@
 {
   "parser": "postcss-scss",
   "plugins": {
-    "autoprefixer": {}
+    "autoprefixer": {grid: "autoplace"}
   }
 }
