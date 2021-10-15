@@ -5,7 +5,6 @@
   "scripts": {
     "serve": "parcel ./src/**/*.html",
     "build": "parcel build ./src/**/*.html --dist-dir ./public --no-source-maps && npm run copy",
-    "deploy": "npm run build && firebase deploy",
     "copy": "cpx 'static/**/*' public"
   },
   "keywords": [],
